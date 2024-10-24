@@ -1,0 +1,19 @@
+:root {
+    /*Coloras*/
+    --yellow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --white: #FFFFFF; 
+
+    /*Typographies*/
+    --figtree-extra-bold: 800 24px/1.5 "Figtree", sans-serif;
+    --figtree-extra-bold-short: 800 14px/1.5 "Figtree", sans-serif;
+    --figtree-medium: 500 16px/1.5 "Figtree", sans-serif;
+    --figtree-medium-short: 500 14px/1.5 "Figtree", sans-serif;
+
+    /*Display Sizing*/
+    --display-width-desktop: 1440;
+    --display-height-desktop: 960;
+    --display-width-mobile: 375;
+    --display-height-mobile: 812;
+}

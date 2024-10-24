@@ -1,0 +1,38 @@
+/* Basic CSS Reset*/
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    list-style-type: none;
+
+    /*To center the main page*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh; 
+}
+
+
+/*Styles*/
+.main-container {
+    max-width: var(--display-width-mobile);
+    max-height: var(--display-height-mobile);
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow);
+    margin: 0 auto;
+
+    .blog-card {
+        width: 384px;
+        height: 522px;
+
+    }
+}
