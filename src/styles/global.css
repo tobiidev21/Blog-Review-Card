@@ -7,13 +7,16 @@
 
     /*Typographies*/
     --figtree-extra-bold: 800 24px/1.5 "Figtree", sans-serif;
+    --figtree-extra-bold-mobile: 800 20px/1.5 "Figtree", sans-serif;
     --figtree-extra-bold-short: 800 14px/1.5 "Figtree", sans-serif;
     --figtree-medium: 500 16px/1.5 "Figtree", sans-serif;
     --figtree-medium-short: 500 14px/1.5 "Figtree", sans-serif;
+    --figtree-medium-short-mobile: 500 12px/1.5 "Figtree", sans-serif;
+
 
     /*Display Sizing*/
-    --display-width-desktop: 1440;
-    --display-height-desktop: 960;
-    --display-width-mobile: 375;
-    --display-height-mobile: 812;
+    --display-width-desktop: 1440px;
+    --display-height-desktop: 960px;
+    --display-width-mobile: 375px;
+    --display-height-mobile: 812px;
 }
