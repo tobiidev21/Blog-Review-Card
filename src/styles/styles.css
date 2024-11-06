@@ -84,6 +84,10 @@ body {
                 font: var(--figtree-extra-bold-mobile);
             }
 
+            h1:hover {
+                color: var(--yellow);
+            }
+
             p:last-of-type {
                 font: var(--figtree-medium-short);
                 color: var(--gray-500);
@@ -110,5 +114,24 @@ body {
             }
         }
         
+    }
+}
+
+
+/*Desktop Styles*/
+@media (min-width: 1440px) and (orientation: landscape){
+
+    .main-container {
+        width: var(--display-width-desktop);
+        height: var(--display-height-desktop);
+
+        .blog-card {
+            width: 384px;
+            height: 522px;
+
+            .front-page{
+                width: 336px;
+            }
+        }
     }
 }
