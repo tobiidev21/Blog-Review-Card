@@ -89,7 +89,7 @@ body {
             }
 
             p:last-of-type {
-                font: var(--figtree-medium);
+                font: var(--figtree-medium-short);
                 color: var(--gray-500);
             }
 
@@ -131,6 +131,10 @@ body {
 
             .front-page{
                 width: 336px;
+            }
+
+            .main-content p:last-of-type {
+                font: var(--figtree-medium);
             }
         }
     }
