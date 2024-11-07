@@ -89,7 +89,7 @@ body {
             }
 
             p:last-of-type {
-                font: var(--figtree-medium-short);
+                font: var(--figtree-medium);
                 color: var(--gray-500);
             }
 
